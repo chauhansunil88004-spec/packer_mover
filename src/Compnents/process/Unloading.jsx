@@ -1,5 +1,5 @@
 import React from "react";
-import "./Unloading.css";
+import "./unloading.css";
 
 const Unloading = () => {
   return (

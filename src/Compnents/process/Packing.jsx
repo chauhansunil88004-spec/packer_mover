@@ -1,5 +1,5 @@
 import React from "react";
-import "./Packing.css";
+import "./packing.css";
 
 const Packing = () => {
   return (
