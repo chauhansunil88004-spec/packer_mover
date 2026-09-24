@@ -36,7 +36,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 
 // Admin
-import Admin from "../pages/Admin/admin";
+import Admin from "../pages/Admin/Admin";
 
 const AppRoutes = () => {
   return (
