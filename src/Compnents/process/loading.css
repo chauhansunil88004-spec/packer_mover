@@ -1,0 +1,23 @@
+.loading-page {
+  background: #fff;
+}
+
+.loading-page .service-hero {
+  background: #fff5f5;
+}
+
+.loading-page .service-hero-image img {
+  object-position: center;
+}
+
+.loading-page .content-image img {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.loading-page .service-btn {
+  background: #e63946;
+}
+
+.loading-page .service-btn:hover {
+  background: #b92734;
+}

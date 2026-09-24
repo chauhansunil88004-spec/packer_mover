@@ -1,0 +1,88 @@
+.topbar {
+  width: 100%;
+  background: #b5121b;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.topbar-container {
+  max-width: 1400px;
+  min-height: 42px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow-x: auto;
+  white-space: nowrap;
+
+  scrollbar-width: none;
+}
+
+.topbar-container::-webkit-scrollbar {
+  display: none;
+}
+
+.topbar-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 10px 12px;
+
+  color: #fff;
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  transition: all 0.2s ease;
+}
+
+.topbar-link:hover {
+  color: #ffd700;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.topbar-icon {
+  width: 16px;
+  height: 16px;
+  color: #ffd700;
+  flex-shrink: 0;
+}
+
+.topbar-separator {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 992px) {
+  .topbar-container {
+    justify-content: flex-start;
+    padding: 0 10px;
+  }
+
+  .topbar-link {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topbar-container {
+    min-height: 40px;
+    justify-content: flex-start;
+    padding: 0 6px;
+  }
+
+  .topbar-link {
+    padding: 9px 8px;
+    font-size: 11px;
+  }
+
+  .topbar-icon {
+    width: 14px;
+    height: 14px;
+  }
+}
