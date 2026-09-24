@@ -8,7 +8,7 @@ import {
   FileText,
   AlertCircle
 } from "lucide-react";
-import "./TopBar.css";
+import "./Topbar.css";
 
 const topLinks = [
   {
